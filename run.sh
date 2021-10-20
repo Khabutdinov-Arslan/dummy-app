@@ -1,2 +1,2 @@
-flask run --host=0.0.0.0
+gunicorn3 --bind 0.0.0.0:5000 wsgi:app
 
